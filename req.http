@@ -1,0 +1,15 @@
+GET http://localhost:7777/add?a=1&b=2
+
+
+###
+GET https://github.com/magicly/be-for-fe
+
+
+###
+POST http://localhost:7777/add HTTP/1.1
+content-type: application/json
+
+{
+    "a": 1,
+    "b": 2.5
+}

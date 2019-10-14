@@ -14,6 +14,12 @@ const server = http.createServer(function(request, response) {
     result = a + b;
   } else if (urlinfo.pathname === "/sub") {
     result = a - b;
+  } else if (urlinfo.pathname === "/mul") {
+    result = a * b;
+  } else if (urlinfo.pathname === "/div") {
+    result = a / b;
+  } else {
+    result = "not supported!";
   }
   console.log("result: ", result);
   // 将业务逻辑的执行结果作为响应返回
