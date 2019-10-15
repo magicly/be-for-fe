@@ -1,17 +1,6 @@
 const http = require("http");
 const fs = require("fs");
-
-function readFilePromise(fileName, encoding) {
-  return new Promise((resolve, reject) => {
-    fs.readFile(fileName, encoding, (err, data) => {
-      if (err) {
-        reject(err);
-      } else {
-        resolve(data);
-      }
-    });
-  });
-}
+const readFilePromise = require("./fileutils").readFilePromise;
 
 const server = http.createServer(async function(request, response) {
   // 读参数

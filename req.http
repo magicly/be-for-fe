@@ -13,3 +13,13 @@ content-type: application/json
     "a": 1,
     "b": 2.5
 }
+
+
+###
+POST http://localhost:7777/data2.txt HTTP/1.1
+content-type: application/json
+
+{
+    "name": "magicly",
+    "age": 25
+}
