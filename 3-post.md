@@ -11,3 +11,5 @@
 ## VSCode 插件 RestClient
 
 ## Curl
+
+[接收 post 请求](https://www.bilibili.com/video/av71014473/?p=3)
