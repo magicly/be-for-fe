@@ -1,0 +1,22 @@
+{
+  "name": "be-for-fe",
+  "version": "1.0.0",
+  "description": "针对前端开发人员的后端入门课程。https://www.bilibili.com/video/av71014473/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicly/be-for-fe.git"
+  },
+  "author": "magicly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magicly/be-for-fe/issues"
+  },
+  "homepage": "https://github.com/magicly/be-for-fe#readme",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
+}
