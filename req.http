@@ -23,3 +23,16 @@ content-type: application/json
     "name": "magicly",
     "age": 25
 }
+
+
+###
+POST http://localhost:7777/register HTTP/1.1
+content-type: application/json
+
+{
+    "name": "magicly",
+    "password": "1234"
+}
+
+###
+GET http://localhost:7777/login?name=magicly&password=1234 HTTP/1.1
